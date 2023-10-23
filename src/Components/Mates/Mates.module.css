@@ -1,0 +1,17 @@
+.Container{
+    /* display: grid;
+    margin: auto 0 ; */
+    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+    /* grid-gap: 20px; */
+
+    display: flex;
+    flex-direction: row;
+    
+
+    border: solid 5px blue;
+
+}
+
+.Cmate{
+    border: solid 3px red;
+}

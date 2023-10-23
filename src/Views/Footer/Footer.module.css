@@ -1,0 +1,28 @@
+.Conteiner{
+    height: 4em;
+    width: 100%;
+
+    background-color: #487eb0;
+
+    position: absolute;
+    bottom: 0;
+
+
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+
+    padding: 1em 0;
+
+    font-family: 'Times New Roman', Times, serif;
+    border: none;
+}
+
+.G_A{
+    text-decoration: none;
+    color: black;
+
+    font-weight: bolder;
+
+    /* border-bottom: 1px solid black; */
+}
