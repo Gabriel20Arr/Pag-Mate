@@ -11,29 +11,33 @@ export const Mate = () => {
   }
 
   return (
-    <div className={styles.Cmate}>
-     <div className={styles.Cmate2}>
-    
-      {Productos.map((producto, index) => (
-        <div key={index} className={styles.container}>
-          <h2 className={styles.span0}>{producto.Title}</h2>
-
-          <img 
-            src={openImg ? producto.Img2 : producto.Img1}
-            // src={'https://mercadoshops.ml/matesur/img/categorias/cat-mates.jpg'}
-            alt='imgs' 
-            className={styles.span1}
-            onMouseEnter={toggleImg}
-            onMouseLeave={toggleImg}
-          />
-
-          <p className={styles.span2}>{producto.Description}</p>
-          
-          <p>Precio: {producto.Price}</p>
-          
-          <p>Peso: {producto.Peso}Kg</p>
-
-        </div>
+    <div id='AllProduct' className={styles.Cmate}>
+      <div className={styles.Cmate2}>
+     
+       {Productos.map((producto, index) => (
+         <div key={index} className={styles.container}>
+           <h2 className={styles.span0}>{producto.Title}</h2>
+ 
+           <img 
+             src={openImg ? producto.Img2 : producto.Img1}
+            //  src={'https://mercadoshops.ml/matesur/img/categorias/cat-mates.jpg'}
+             alt='imgs' 
+             className={styles.span1}
+             onMouseEnter={toggleImg}
+             onMouseLeave={toggleImg}
+           />
+ 
+           <p className={styles.span2}>{producto.Description}</p>
+           
+           <p>Precio: {producto.Price}</p>
+           
+           { 
+            (producto.Peso) ? <p>Peso: {producto.Peso}Kg</p> 
+              : 
+            <p>Altura: {producto.Altura} cm</p>
+           }
+ 
+         </div>
       ))}
 
      </div>

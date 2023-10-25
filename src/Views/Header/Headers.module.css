@@ -42,6 +42,14 @@
     transform: rotate(-360deg);
 }
 
+.NavLinks{
+    text-decoration: none;
+    color: black;
+
+    font-weight: bolder;
+    font-size: 15px;
+}
+
 
 
 @keyframes scale-up-horizontal-left {

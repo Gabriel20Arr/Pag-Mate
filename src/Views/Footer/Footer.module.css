@@ -4,8 +4,8 @@
 
     background-color: #487eb0;
 
-    position: absolute;
-    bottom: 0;
+    /* position: absolute;
+    bottom: 0; */
 
 
     display: flex;
@@ -16,6 +16,8 @@
 
     font-family: 'Times New Roman', Times, serif;
     border: none;
+
+    margin-top: 15px;
 }
 
 .G_A{

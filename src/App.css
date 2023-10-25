@@ -1,7 +1,25 @@
-.Container{
-    padding: 0;
+.Container {
+    min-height: 100vh;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
 
-    height: fit-content;
+    /* width: fit-content; */
 
-    background-color: red;
+    margin-top: 500px;
+
+    /* border: solid 5px red; */
 }
+
+/* .FooterC{
+    border: solid 4px red;
+
+    position: absolute;
+    bottom: 0;
+
+    width: 100%;
+} */
+  
