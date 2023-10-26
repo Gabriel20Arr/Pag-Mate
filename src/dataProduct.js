@@ -1,296 +1,320 @@
 export const Productos = [
     // YERBAS
-    {
-        "Title": 'Erva-Mate Tradicional 1Kg',
+    [
+        {
+            "Categoria": "Yerbas",
 
-        'Img1': 'Productos/test-0-yerba.webp',
-        'Img2': 'Productos/test-1-yerba.webp',
+            "Title": 'Erva-Mate Tradicional 1Kg',
 
-        "Description": 'Produzida a partir dos melhores ervais do Sul do Brasil, possui um sabor único.',
-        "Price": 360,
+            'Img1': 'Productos/test-0-yerba.webp',
+            'Img2': 'Productos/test-1-yerba.webp',
 
-        "Peso": 1,
-    },
-    {
-        "Title": 'Erva-Mate Tradicional 1Kg2',
+            "Description": 'Produzida a partir dos melhores ervais do Sul do Brasil, possui um sabor único.',
+            "Price": 360,
 
-        'Img1': 'Productos/test-3-yerba.webp',
-        'Img2': 'Productos/test-2-yerba.webp',
+            "Peso": 1,
+        },
+        {
+            "Categoria": "Yerbas",
 
-        "Description": 'Produzida a partir dos melhores ervais do Sul do Brasil, possui um sabor único.',
+            "Title": 'Erva-Mate Tradicional 1Kg2',
 
-        "Price": 3600,
+            'Img1': 'Productos/test-3-yerba.webp',
+            'Img2': 'Productos/test-2-yerba.webp',
 
-        "Peso": 1,
-    },
-    {
-        "Title": 'Erva-Mate Tradicional 1Kg3',
+            "Description": 'Produzida a partir dos melhores ervais do Sul do Brasil, possui um sabor único.',
 
-        'Img1': 'Productos/test-4-yerba.webp',
-        'Img2': 'Productos/test-5-yerba.webp',
+            "Price": 3600,
 
-        "Description": 'Produzida a partir dos melhores ervais do Sul do Brasil, possui um sabor único.',
+            "Peso": 1,
+        },
+        {
+            "Categoria": "Yerbas",
 
-        "Price": 3600,
+            "Title": 'Erva-Mate Tradicional 1Kg3',
 
-        "Peso": 1,
-    },
-    {
-        "Title": 'Erva-Mate Tradicional 1Kg3',
+            'Img1': 'Productos/test-4-yerba.webp',
+            'Img2': 'Productos/test-5-yerba.webp',
 
-        'Img1': 'Productos/test-6-yerba.webp',
-        'Img2': 'Productos/test-7-yerba.webp',
+            "Description": 'Produzida a partir dos melhores ervais do Sul do Brasil, possui um sabor único.',
 
-        "Description": 'Produzida a partir dos melhores ervais do Sul do Brasil, possui um sabor único.',
+            "Price": 3600,
 
-        "Price": 3600,
+            "Peso": 1,
+        },
+        {
+            "Categoria": "Yerbas",
 
-        "Peso": 1,
-    },
-    {
-        "Title": 'Erva-Mate Tradicional 1Kg3',
+            "Title": 'Erva-Mate Tradicional 1Kg3',
 
-        'Img1': 'Productos/test-8-yerba.webp',
-        'Img2': 'Productos/test-9-yerba.webp',
+            'Img1': 'Productos/test-6-yerba.webp',
+            'Img2': 'Productos/test-7-yerba.webp',
 
-        "Description": 'Produzida a partir dos melhores ervais do Sul do Brasil, possui um sabor único.',
+            "Description": 'Produzida a partir dos melhores ervais do Sul do Brasil, possui um sabor único.',
 
-        "Price": 3600,
+            "Price": 3600,
 
-        "Peso": 1,
-    },
-    {
-        "Title": 'Erva-Mate Tradicional 1Kg3',
+            "Peso": 1,
+        },
+        {
+            "Categoria": "Yerbas",
 
-        'Img1': 'Productos/test-10-yerba.webp',
-        'Img2': 'Productos/test-11-yerba.webp',
+            "Title": 'Erva-Mate Tradicional 1Kg3',
 
-        "Description": 'Produzida a partir dos melhores ervais do Sul do Brasil, possui um sabor único.',
+            'Img1': 'Productos/test-8-yerba.webp',
+            'Img2': 'Productos/test-9-yerba.webp',
 
-        "Price": 3600,
+            "Description": 'Produzida a partir dos melhores ervais do Sul do Brasil, possui um sabor único.',
 
-        "Peso": 1,
-    },
-    {
-        "Title": 'Erva-Mate Tradicional 1Kg3',
+            "Price": 3600,
 
-        'Img1': 'Productos/test-12-yerba.webp',
-        'Img2': 'Productos/test-13-yerba.webp',
+            "Peso": 1,
+        },
+        {
+            "Categoria": "Yerbas",
 
-        "Description": 'Produzida a partir dos melhores ervais do Sul do Brasil, possui um sabor único.',
+            "Title": 'Erva-Mate Tradicional 1Kg3',
 
-        "Price": 3600,
+            'Img1': 'Productos/test-10-yerba.webp',
+            'Img2': 'Productos/test-11-yerba.webp',
 
-        "Peso": 1,
-    },
-    {
-        "Title": 'Erva-Mate Tradicional 1Kg3',
+            "Description": 'Produzida a partir dos melhores ervais do Sul do Brasil, possui um sabor único.',
 
-        'Img1': 'Productos/test-14-yerba.webp',
-        'Img2': 'Productos/test-15-yerba.webp',
+            "Price": 3600,
 
-        "Description": 'Produzida a partir dos melhores ervais do Sul do Brasil, possui um sabor único.',
+            "Peso": 1,
+        },
+        {
+            "Categoria": "Yerbas",
 
-        "Price": 3600,
+            "Title": 'Erva-Mate Tradicional 1Kg3',
 
-        "Peso": 1,
-    },
-    {
-        "Title": 'Erva-Mate Tradicional 1Kg3',
+            'Img1': 'Productos/test-12-yerba.webp',
+            'Img2': 'Productos/test-13-yerba.webp',
 
-        'Img1': 'Productos/test-16-yerba.webp',
-        'Img2': 'Productos/test-17-yerba.webp',
+            "Description": 'Produzida a partir dos melhores ervais do Sul do Brasil, possui um sabor único.',
 
-        "Description": 'Produzida a partir dos melhores ervais do Sul do Brasil, possui um sabor único.',
+            "Price": 3600,
 
-        "Price": 3600,
+            "Peso": 1,
+        },
+        {
+            "Categoria": "Yerbas",
 
-        "Peso": 1,
-    },
-    
+            "Title": 'Erva-Mate Tradicional 1Kg3',
+
+            'Img1': 'Productos/test-14-yerba.webp',
+            'Img2': 'Productos/test-15-yerba.webp',
+
+            "Description": 'Produzida a partir dos melhores ervais do Sul do Brasil, possui um sabor único.',
+
+            "Price": 3600,
+
+            "Peso": 1,
+        },
+        {
+            "Categoria": "Yerbas",
+
+            "Title": 'Erva-Mate Tradicional 1Kg3',
+
+            'Img1': 'Productos/test-16-yerba.webp',
+            'Img2': 'Productos/test-17-yerba.webp',
+
+            "Description": 'Produzida a partir dos melhores ervais do Sul do Brasil, possui um sabor único.',
+
+            "Price": 3600,
+
+            "Peso": 1,
+        },
+    ],
+
     // MATES
-    {
-        "Categoria": "Mates",
+    [
+        {
+            "Categoria": "Mates",
 
-        "Title": 'Mate imperial cocodrilo bordo',
+            "Title": 'Mate imperial cocodrilo bordo',
 
-        'Img1': 'Mates/img-mate-1.jpg',
-        'Img2': 'Mates/1-2.png',
+            'Img1': 'Mates/img-mate-1.jpg',
+            'Img2': 'Mates/1-2.png',
 
-        "Description": 'Produzida a partir dos melhores ervais do Sul do Brasil, possui um sabor único.',
+            "Description": 'Produzida a partir dos melhores ervais do Sul do Brasil, possui um sabor único.',
 
-        "Price": 6600,
+            "Price": 6600,
 
-        "Altura": 20,
-    },
-    {
-        "Categoria": "Mates",
+            "Altura": 20,
+        },
+        {
+            "Categoria": "Mates",
 
-        "Title": 'Mate imperial negro',
+            "Title": 'Mate imperial negro',
 
-        'Img1': 'Mates/img-mate-2.jpg',
-        'Img2': 'Mates/2-2.png',
+            'Img1': 'Mates/img-mate-2.jpg',
+            'Img2': 'Mates/2-2.png',
 
-        "Description": 'Produzida a partir dos melhores ervais do Sul do Brasil, possui um sabor único.',
+            "Description": 'Produzida a partir dos melhores ervais do Sul do Brasil, possui um sabor único.',
 
-        "Price": 4605,
+            "Price": 4605,
 
-        "Altura": 19,
-    },
-    {
-        "Categoria": "Mates",
+            "Altura": 19,
+        },
+        {
+            "Categoria": "Mates",
 
-        "Title": 'Mate imperial bordo',
+            "Title": 'Mate imperial bordo',
 
-        'Img1': 'Mates/img-mate-3.jpg',
-        'Img2': 'Mates/3-2.png',
+            'Img1': 'Mates/img-mate-3.jpg',
+            'Img2': 'Mates/3-2.png',
 
-        "Description": 'Produzida a partir dos melhores ervais do Sul do Brasil, possui um sabor único.',
+            "Description": 'Produzida a partir dos melhores ervais do Sul do Brasil, possui um sabor único.',
 
-        "Price": 3500,
+            "Price": 3500,
 
-        "Altura": 20,
-    },
-    {
-        "Categoria": "Mates",
+            "Altura": 20,
+        },
+        {
+            "Categoria": "Mates",
 
-        "Title": 'Mate imperial basico negro',
+            "Title": 'Mate imperial basico negro',
 
-        'Img1': 'Mates/img-mate-4.jpeg',
-        'Img2': 'Mates/4-2.png',
+            'Img1': 'Mates/img-mate-4.jpeg',
+            'Img2': 'Mates/4-2.png',
 
-        "Description": 'Produzida a partir dos melhores ervais do Sul do Brasil, possui um sabor único.',
+            "Description": 'Produzida a partir dos melhores ervais do Sul do Brasil, possui um sabor único.',
 
-        "Price": 2700,
+            "Price": 2700,
 
-        "Altura": 20,
-    },
-    {
-        "Categoria": "Mates",
+            "Altura": 20,
+        },
+        {
+            "Categoria": "Mates",
 
-        "Title": 'Mate imperial cocodrilo negro',
+            "Title": 'Mate imperial cocodrilo negro',
 
-        'Img1': 'Mates/img-mate-5.jpg',
-        'Img2': 'Mates/5-2.png',
+            'Img1': 'Mates/img-mate-5.jpg',
+            'Img2': 'Mates/5-2.png',
 
-        "Description": 'Produzida a partir dos melhores ervais do Sul do Brasil, possui um sabor único.',
+            "Description": 'Produzida a partir dos melhores ervais do Sul do Brasil, possui um sabor único.',
 
-        "Price": 3900,
+            "Price": 3900,
 
-        "Altura": 22,
-    },
-    {
-        "Categoria": "Mates",
+            "Altura": 22,
+        },
+        {
+            "Categoria": "Mates",
 
-        "Title": 'Mate imperial premium negro',
+            "Title": 'Mate imperial premium negro',
 
-        'Img1': 'Mates/img-mate-6.jpg',
-        'Img2': 'Mates/6-2.png',
+            'Img1': 'Mates/img-mate-6.jpg',
+            'Img2': 'Mates/6-2.png',
 
-        "Description": 'Produzida a partir dos melhores ervais do Sul do Brasil, possui um sabor único.',
+            "Description": 'Produzida a partir dos melhores ervais do Sul do Brasil, possui um sabor único.',
 
-        "Price": 6800,
+            "Price": 6800,
 
-        "Altura": 20,
-    },
-    {
-        "Categoria": "Mates",
+            "Altura": 20,
+        },
+        {
+            "Categoria": "Mates",
 
-        "Title": 'Mate imperial fulbolero negro',
+            "Title": 'Mate imperial fulbolero negro',
 
-        'Img1': 'Mates/img-mate-7.jpg',
-        'Img2': 'Mates/7-2.png',
+            'Img1': 'Mates/img-mate-7.jpg',
+            'Img2': 'Mates/7-2.png',
 
-        "Description": 'Produzida a partir dos melhores ervais do Sul do Brasil, possui um sabor único.',
+            "Description": 'Produzida a partir dos melhores ervais do Sul do Brasil, possui um sabor único.',
 
-        "Price": 9600,
+            "Price": 9600,
 
-        "Altura": 21,
-    },
-    {
-        "Categoria": "Mates",
+            "Altura": 21,
+        },
+        {
+            "Categoria": "Mates",
 
-        "Title": 'Mate imperial cocodrilo bordo premium',
+            "Title": 'Mate imperial cocodrilo bordo premium',
 
-        'Img1': 'Mates/img-mate-8.jpg',
-        'Img2': 'Mates/8-2.png',
+            'Img1': 'Mates/img-mate-8.jpg',
+            'Img2': 'Mates/8-2.png',
 
-        "Description": 'Produzida a partir dos melhores ervais do Sul do Brasil, possui um sabor único.',
+            "Description": 'Produzida a partir dos melhores ervais do Sul do Brasil, possui um sabor único.',
 
-        "Price": 7600,
+            "Price": 7600,
 
-        "Altura": 20,
-    },
+            "Altura": 20,
+        },
+    ],
+
     // BOMBILLAS
-    {
-        "Categoria": 'Bombilla',
+    [
+        {
+            "id": 1,
+            
+            "Title": 'Bombilla Pico Loro premium',
 
-        "Title": 'Bombilla Pico Loro premium',
+            'Img1': 'Bombillas/bombilla1.jpg',
+            'Img2': 'Bombillas/1-2.png',
 
-        'Img1': 'Bombillas/bombilla1.jpg',
-        'Img2': 'Bombillas/1-2.png',
+            "Description": 'Produzida a partir dos melhores ervais do Sul do Brasil, possui um sabor único.',
 
-        "Description": 'Produzida a partir dos melhores ervais do Sul do Brasil, possui um sabor único.',
+            "Price": 3600,
 
-        "Price": 3600,
+            "Altura": 10,
+        },
+        {
+            "id": 2,
+            
+            "Title": 'Bombilla Pico Loro basica',
 
-        "Altura": 10,
-    },
-    {
-        "Categoria": 'Bombilla',
+            'Img1': 'Bombillas/bombilla2.jpg',
+            'Img2': 'Bombillas/2-2.png',
 
-        "Title": 'Bombilla Pico Loro basica',
+            "Description": 'Produzida a partir dos melhores ervais do Sul do Brasil, possui um sabor único.',
 
-        'Img1': 'Bombillas/bombilla2.jpg',
-        'Img2': 'Bombillas/2-2.png',
+            "Price": 2600,
 
-        "Description": 'Produzida a partir dos melhores ervais do Sul do Brasil, possui um sabor único.',
+            "Altura": 9,
+        },
+        {
+            "id": 3,
+            
+            "Title": 'Bombilla premium',
 
-        "Price": 2600,
+            'Img1': 'Bombillas/bombilla3.jpg',
+            'Img2': 'Bombillas/3-2.png',
 
-        "Altura": 9,
-    },
-    {
-        "Categoria": 'Bombilla',
+            "Description": 'Produzida a partir dos melhores ervais do Sul do Brasil, possui um sabor único.',
 
-        "Title": 'Bombilla premium',
+            "Price": 4600,
 
-        'Img1': 'Bombillas/bombilla3.jpg',
-        'Img2': 'Bombillas/3-2.png',
+            "Altura": 10,
+        },
+        {
+            "id": 4,
+            
+            "Title": 'Bombilla bolitas premium',
 
-        "Description": 'Produzida a partir dos melhores ervais do Sul do Brasil, possui um sabor único.',
+            'Img1': 'Bombillas/bombilla4.jpg',
+            'Img2': 'Bombillas/4-2.png',
 
-        "Price": 4600,
+            "Description": 'Produzida a partir dos melhores ervais do Sul do Brasil, possui um sabor único.',
 
-        "Altura": 10,
-    },
-    {
-        "Categoria": 'Bombilla',
+            "Price": 5600,
 
-        "Title": 'Bombilla bolitas premium',
+            "Altura": 11,
+        },
+        {
+            "id": 5,
+            
+            "Title": 'Bombilla alpaca premium',
 
-        'Img1': 'Bombillas/bombilla4.jpg',
-        'Img2': 'Bombillas/4-2.png',
+            'Img1': 'Bombillas/bombilla5.jpg',
+            'Img2': 'Bombillas/5-2.png',
 
-        "Description": 'Produzida a partir dos melhores ervais do Sul do Brasil, possui um sabor único.',
+            "Description": 'Produzida a partir dos melhores ervais do Sul do Brasil, possui um sabor único.',
 
-        "Price": 5600,
+            "Price": 3900,
 
-        "Altura": 11,
-    },
-    {
-        "Categoria": 'Bombilla',
-
-        "Title": 'Bombilla alpaca premium',
-
-        'Img1': 'Bombillas/bombilla5.jpg',
-        'Img2': 'Bombillas/5-2.png',
-
-        "Description": 'Produzida a partir dos melhores ervais do Sul do Brasil, possui um sabor único.',
-
-        "Price": 3900,
-
-        "Altura": 10,
-    },
-   
+            "Altura": 10,
+        },
+    ],
 ]

@@ -8,6 +8,7 @@ import Footer from './Views/Footer/Footer';
 import {AllProduct} from "./Components/AllProduct/AllProduct.jsx"
 import { Yerbas } from './Components/Yerbas/Yerbas';
 import { Mate } from './Components/Mate/Mate';
+import { Bombillas } from './Components/Bombillas/Bombillas';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
           <Route path='/AllProduct' element={<AllProduct />} />
           <Route path='/Yerbas' element={<Yerbas />} />
           <Route path='/Mates' element={<Mate />} />
+          <Route path='/Bombillas' element={<Bombillas />} />
         </Routes>
       </div>
       

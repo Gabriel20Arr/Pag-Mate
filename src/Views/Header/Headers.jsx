@@ -45,33 +45,48 @@ function Headers() {
 
             { isDropDown && (
               <div className={`${styles.content_dropdown} ${styles.openAnimation}`}>
+              <NavLink to={"AllProduct"} className={styles.NavLinks}>
                   <span className={styles.span} >
-                    <NavLink to={"AllProduct"} className={styles.NavLinks}>All Product</NavLink>
+                    Some Product
                   </span>
+              </NavLink>
 
+              <NavLink to={"Mates"} className={styles.NavLinks}>
                   <span className={styles.span}>
-                    <NavLink to={"Mates"} className={styles.NavLinks}>Mates</NavLink>
+                    Mates
                   </span>
+              </NavLink>
 
+              <NavLink to="Yerbas" className={styles.NavLinks}>
                   <span className={styles.span}>
-                    <NavLink to="Yerbas" className={styles.NavLinks}>Yerbas</NavLink>
+                    Yerbas
                   </span>
+              </NavLink>
 
+              <NavLink to={"Bombillas"} className={styles.NavLinks}>
                   <span className={styles.span}>
-                    <NavLink to={"Bombillas"} className={styles.NavLinks}>Bombillas</NavLink>
+                    Bombillas
                   </span>
+              </NavLink>
+
+              <NavLink to={"Termos"} className={styles.NavLinks}>                  
+                  <span className={styles.span}>
+                    Termos
+                  </span>
+              </NavLink>
                   
+              <NavLink to={"Materas"} className={styles.NavLinks}>
                   <span className={styles.span}>
-                    <NavLink to={"Termos"} className={styles.NavLinks}>Termos</NavLink>
+                    Materas
                   </span>
-                  
+              </NavLink>
+
+              <NavLink to={"Accesorios"} className={styles.NavLinks}>                  
                   <span className={styles.span}>
-                    <NavLink to={"Materas"} className={styles.NavLinks}>Materas</NavLink>
+                    Accesorios
                   </span>
-                  
-                  <span className={styles.span}>
-                    <NavLink to={"Accesorios"} className={styles.NavLinks}>Accesorios</NavLink>
-                  </span>
+              </NavLink>
+
               </div>)
             }
             

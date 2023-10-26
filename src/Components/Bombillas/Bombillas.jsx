@@ -1,19 +1,19 @@
 import React from 'react'
 
-import styles from "./Yerbas.module.css"
+import styles from "./Bombillas.module.css"
 
 import { Productos } from '../../dataProduct'
 
-export const Yerbas = () => {
-
-  const dataYerba = Productos[0]
+export const Bombillas = () => {
+  
+  const dataBombillas = Productos[2]
   
   return (
-     <div id='AllProduct' className={styles.Container}>
+     <div className={styles.Container}>
       <div className={styles.Container2}>
      
-       {dataYerba.map((producto, index) => (
-         <div key={index} className={styles.containerY}>
+       {dataBombillas.map((producto, index) => (
+         <div key={producto.id} className={styles.containerB}>
            <h2 className={styles.span0}>{producto.Title}</h2>
  
            <div className={styles.imagenContainer}>

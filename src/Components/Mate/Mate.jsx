@@ -1,31 +1,32 @@
-import React, {useState} from 'react'
+import React from 'react'
 
 import styles from "./Mate.module.css"
-import { Productos } from "../../dataProduct"
+import { Productos }  from "../../dataProduct"
 
 export const Mate = () => {
-  const [openImg, setOpenImg] = useState(false);
-  
-  const  toggleImg = () => {
-    setOpenImg(!openImg)
-  }
+
+  const dataMate = Productos[1];
 
   return (
-    <div id='AllProduct' className={styles.Cmate}>
+    <div className={styles.Cmate}>
       <div className={styles.Cmate2}>
      
-       {Productos.map((producto, index) => (
+       {dataMate.map((producto, index) => (
          <div key={index} className={styles.container}>
            <h2 className={styles.span0}>{producto.Title}</h2>
  
-           <img 
-             src={openImg ? producto.Img2 : producto.Img1}
-            //  src={'https://mercadoshops.ml/matesur/img/categorias/cat-mates.jpg'}
-             alt='imgs' 
-             className={styles.span1}
-             onMouseEnter={toggleImg}
-             onMouseLeave={toggleImg}
-           />
+           <div className={styles.imagenContainer}>
+                  <img
+                    src={producto.Img1}
+                    alt="Imagen normal"
+                    className={`${styles.span1} ${styles.imagen}`}
+                  />
+                  <img
+                    src={producto.Img2}
+                    alt="Imagen hover"
+                    className={`${styles.span1} ${styles.imagen} ${styles.imagenHover}`}
+                  />
+            </div>
  
            <p className={styles.span2}>{producto.Description}</p>
            
