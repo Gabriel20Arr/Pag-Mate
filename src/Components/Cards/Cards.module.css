@@ -1,0 +1,13 @@
+.Container2{
+    /* border: solid 5px red; */
+
+    display: grid;
+    margin: auto 0;
+    grid-template-columns: 1fr 1fr;
+
+    grid-gap: 25px;
+
+    max-width: 80%;
+    /* min-height: 100vh; */
+
+}

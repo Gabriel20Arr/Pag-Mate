@@ -1,4 +1,4 @@
-import React,  { useState } from 'react'
+import React,  { useContext, useState } from 'react'
 import { NavLink } from 'react-router-dom'
 
 import styles from "./Headers.module.css"
@@ -7,22 +7,20 @@ import imgMenu from "../../Img/menu-expand-svgrepo-com (1).svg"
 // import imgMenuClose from "../../Img/menu-collapsed-svgrepo-com.svg"
 // import imgMenuClose2 from "../../Img/turn-off-backup-svgrepo-com (1).svg"
 import imgCart from "../../Img/cart-plus-svgrepo-com (1).svg"
+import { CartContext } from '../../Context/Context'
 
 function Headers() {
+  const [ cart, setCart ] = useContext(CartContext)
   const [ isDropDown, setIsDropDown ] = useState(false);
-
+  
   const toggleDropDown = () => {
     setIsDropDown(!isDropDown);
   }
 
-  //   const handleScroll = (sectionId) => {
-  //     const element = document.getElementById(sectionId);
-  //     if (element) {
-  //       element.scrollIntoView({ behavior: 'smooth' });
-  //     }
-  //   // Ocultar el menú después de hacer clic en un enlace
-  //   // setShowMenu(false);
-  // };
+  const quantity = cart.reduce((CantTotal, currentItem) => {
+    return CantTotal + currentItem.quantity;
+  }, 0)
+
 
   return (
     <div className={styles.headersContainer}>
@@ -91,13 +89,18 @@ function Headers() {
             }
             
         </div>
-            
-        <span className={styles.title}> 
-            <span className={styles.title_1}> Tu </span>  
-            <span className={styles.title_2}> Mate </span>  
-        </span>
-            
-        <img src={imgCart} alt={imgCart} className={styles.imgCart}/>
+          <NavLink to={"/"} style={{textDecoration: "none", color: 'black'}}>
+            <span className={styles.title}> 
+                <span className={styles.title_1}> Tu </span>  
+                <span className={styles.title_2}> Mate </span>  
+            </span>
+          </NavLink>
+        <div className={styles.containerCarts}>
+          <img src={imgCart} alt={imgCart} className={styles.imgCart}/>
+          <div className={styles.countCarts}>
+            <span className={styles.countCarts2}>{quantity}</span>
+          </div>
+        </div>
     </div>
   )
 }

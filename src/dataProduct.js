@@ -2,6 +2,7 @@ export const Productos = [
     // YERBAS
     [
         {
+            "id": 1,
             "Categoria": "Yerbas",
 
             "Title": 'Erva-Mate Tradicional 1Kg',
@@ -10,11 +11,15 @@ export const Productos = [
             'Img2': 'Productos/test-1-yerba.webp',
 
             "Description": 'Produzida a partir dos melhores ervais do Sul do Brasil, possui um sabor único.',
+
             "Price": 360,
 
             "Peso": 1,
+
+            "Quantity": 4
         },
         {
+            "id": 2,
             "Categoria": "Yerbas",
 
             "Title": 'Erva-Mate Tradicional 1Kg2',
@@ -27,8 +32,11 @@ export const Productos = [
             "Price": 3600,
 
             "Peso": 1,
+
+            "Quantity": 4
         },
         {
+            "id": 3,
             "Categoria": "Yerbas",
 
             "Title": 'Erva-Mate Tradicional 1Kg3',
@@ -41,8 +49,11 @@ export const Productos = [
             "Price": 3600,
 
             "Peso": 1,
+
+            "Quantity": 4
         },
         {
+            "id": 4,
             "Categoria": "Yerbas",
 
             "Title": 'Erva-Mate Tradicional 1Kg3',
@@ -55,8 +66,11 @@ export const Productos = [
             "Price": 3600,
 
             "Peso": 1,
+
+            "Quantity": 4
         },
         {
+            "id": 5,
             "Categoria": "Yerbas",
 
             "Title": 'Erva-Mate Tradicional 1Kg3',
@@ -69,8 +83,11 @@ export const Productos = [
             "Price": 3600,
 
             "Peso": 1,
+
+            "Quantity": 4
         },
         {
+            "id": 6,
             "Categoria": "Yerbas",
 
             "Title": 'Erva-Mate Tradicional 1Kg3',
@@ -83,8 +100,11 @@ export const Productos = [
             "Price": 3600,
 
             "Peso": 1,
+
+            "Quantity": 4
         },
         {
+            "id": 7,
             "Categoria": "Yerbas",
 
             "Title": 'Erva-Mate Tradicional 1Kg3',
@@ -97,8 +117,11 @@ export const Productos = [
             "Price": 3600,
 
             "Peso": 1,
+
+            "Quantity": 4
         },
         {
+            "id": 8,
             "Categoria": "Yerbas",
 
             "Title": 'Erva-Mate Tradicional 1Kg3',
@@ -111,8 +134,11 @@ export const Productos = [
             "Price": 3600,
 
             "Peso": 1,
+
+            "Quantity": 4
         },
         {
+            "id": 9,
             "Categoria": "Yerbas",
 
             "Title": 'Erva-Mate Tradicional 1Kg3',
@@ -125,12 +151,16 @@ export const Productos = [
             "Price": 3600,
 
             "Peso": 1,
+
+            "Quantity": 4
         },
     ],
 
     // MATES
     [
         {
+            "id": 100,
+
             "Categoria": "Mates",
 
             "Title": 'Mate imperial cocodrilo bordo',
@@ -143,8 +173,12 @@ export const Productos = [
             "Price": 6600,
 
             "Altura": 20,
+
+            "Quantity": 4
         },
         {
+            "id": 101,
+
             "Categoria": "Mates",
 
             "Title": 'Mate imperial negro',
@@ -157,8 +191,12 @@ export const Productos = [
             "Price": 4605,
 
             "Altura": 19,
+
+            "Quantity": 4
         },
         {
+            "id": 102,
+
             "Categoria": "Mates",
 
             "Title": 'Mate imperial bordo',
@@ -171,8 +209,12 @@ export const Productos = [
             "Price": 3500,
 
             "Altura": 20,
+
+            "Quantity": 4
         },
         {
+            "id": 103,
+
             "Categoria": "Mates",
 
             "Title": 'Mate imperial basico negro',
@@ -185,8 +227,12 @@ export const Productos = [
             "Price": 2700,
 
             "Altura": 20,
+
+            "Quantity": 4
         },
         {
+            "id": 104,
+
             "Categoria": "Mates",
 
             "Title": 'Mate imperial cocodrilo negro',
@@ -199,8 +245,12 @@ export const Productos = [
             "Price": 3900,
 
             "Altura": 22,
+
+            "Quantity": 4
         },
         {
+            "id": 105,
+
             "Categoria": "Mates",
 
             "Title": 'Mate imperial premium negro',
@@ -213,8 +263,12 @@ export const Productos = [
             "Price": 6800,
 
             "Altura": 20,
+
+            "Quantity": 4
         },
         {
+            "id": 106,
+
             "Categoria": "Mates",
 
             "Title": 'Mate imperial fulbolero negro',
@@ -227,8 +281,12 @@ export const Productos = [
             "Price": 9600,
 
             "Altura": 21,
+
+            "Quantity": 4
         },
         {
+            "id": 107,
+
             "Categoria": "Mates",
 
             "Title": 'Mate imperial cocodrilo bordo premium',
@@ -241,13 +299,15 @@ export const Productos = [
             "Price": 7600,
 
             "Altura": 20,
+
+            "Quantity": 4
         },
     ],
 
     // BOMBILLAS
     [
         {
-            "id": 1,
+            "id": 201,
             
             "Title": 'Bombilla Pico Loro premium',
 
@@ -259,9 +319,11 @@ export const Productos = [
             "Price": 3600,
 
             "Altura": 10,
+
+            "Quantity": 4
         },
         {
-            "id": 2,
+            "id": 202,
             
             "Title": 'Bombilla Pico Loro basica',
 
@@ -273,9 +335,11 @@ export const Productos = [
             "Price": 2600,
 
             "Altura": 9,
+
+            "Quantity": 4
         },
         {
-            "id": 3,
+            "id": 203,
             
             "Title": 'Bombilla premium',
 
@@ -287,9 +351,11 @@ export const Productos = [
             "Price": 4600,
 
             "Altura": 10,
+
+            "Quantity": 4
         },
         {
-            "id": 4,
+            "id": 204,
             
             "Title": 'Bombilla bolitas premium',
 
@@ -301,9 +367,11 @@ export const Productos = [
             "Price": 5600,
 
             "Altura": 11,
+
+            "Quantity": 4
         },
         {
-            "id": 5,
+            "id": 205,
             
             "Title": 'Bombilla alpaca premium',
 
@@ -315,6 +383,8 @@ export const Productos = [
             "Price": 3900,
 
             "Altura": 10,
+
+            "Quantity": 4
         },
     ],
 ]
