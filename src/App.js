@@ -1,5 +1,5 @@
 import './App.css';
-import { Route, Routes } from 'react-router-dom';
+import { Route, Routes, useLocation } from 'react-router-dom';
 
 import Headers from './Views/Header/Headers';
 import Carrusel from './Views/Carrusel/Carrusel.jsx';
@@ -9,16 +9,18 @@ import {AllProduct} from "./Components/AllProduct/AllProduct.jsx"
 import { Yerbas } from './Components/Yerbas/Yerbas';
 import { Mate } from './Components/Mate/Mate';
 import { Bombillas } from './Components/Bombillas/Bombillas';
-import Cards from './Components/Cards/Cards';
-import { CartContext } from './Context/Context';
-
+import { ShoppingCart } from "./Components/ShoppingCart/ShoppingCart.jsx"
 
 function App() {
+  const location = useLocation();
+
+  const isShoppinCart = location.pathname === "/ShoppingCart"
+
   return (
-    <CartContext.Provider>
+    <cartContext>
       <div className='Container'>
         <Headers />
-        <Carrusel />
+          { isShoppinCart ? null : <Carrusel />}
 
         <div className="content">
           <Routes>
@@ -27,16 +29,17 @@ function App() {
             <Route path='/Yerbas' element={<Yerbas />} />
             <Route path='/Mates' element={<Mate />} />
             <Route path='/Bombillas' element={<Bombillas />} />
-            <Route path='/Termos' element={<Cards />} />
+            {/* <Route path='/Termos' element={<Cards />} /> */}
+            {/* <Route path='/Termos' element={<Card />} /> */}
+            <Route path='/ShoppingCart' element={<ShoppingCart />} />
           </Routes>
         </div>
-        {/* <Cards /> */}
-        
+
         <div className='FooterC'>
-          <Footer />
+          {isShoppinCart ? null : <Footer />}
         </div>
       </div>
-    </CartContext.Provider>
+    </cartContext>
   );
 }
 

@@ -7,11 +7,11 @@ import { Card } from '../Card/Card'
 
 const Cards = () => {
 
-  // const ProductosData = [].concat(...Productos).slice(0, 6)
+  const ProductosData = [].concat(...Productos).slice(0, 6)
   
   return (
     <div className={styles.Container2}>
-        {Productos[2].map((index, id) => {
+        {ProductosData.map((index, id) => {
             return <Card key={index.id} {...index} />;
         })}
     </div>

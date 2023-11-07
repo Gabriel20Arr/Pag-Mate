@@ -1,5 +1,5 @@
 export const Productos = [
-    // YERBAS
+    // // YERBAS
     [
         {
             "id": 1,
@@ -156,7 +156,7 @@ export const Productos = [
         },
     ],
 
-    // MATES
+    // // MATES
     [
         {
             "id": 100,
@@ -304,7 +304,7 @@ export const Productos = [
         },
     ],
 
-    // BOMBILLAS
+    // // BOMBILLAS
     [
         {
             "id": 201,

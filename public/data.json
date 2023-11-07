@@ -1,0 +1,104 @@
+[
+    {
+        "id": 1,
+        "Categoria": "Yerbas",
+
+        "Title": "Erva-Mate Tradicional 1Kg",
+
+        "Img1": "Productos/test-0-yerba.webp",
+        "Img2": "Productos/test-1-yerba.webp",
+
+        "Description": "'Produzida a partir dos melhores ervais do Sul do Brasil, possui um sabor único.",
+
+        "Price": 360,
+
+        "Peso": 1,
+
+        "Quantity": 4
+    },
+    {
+        "id": 2,
+        "Categoria": "Yerbas",
+
+        "Title": "Erva-Mate Tradicional 1Kg",
+
+        "Img1": "Productos/test-3-yerba.webp",
+        "Img2": "Productos/test-2-yerba.webp",
+
+        "Description": "'Produzida a partir dos melhores ervais do Sul do Brasil, possui um sabor único.",
+
+        "Price": 3600,
+
+        "Peso": 1,
+
+        "Quantity": 4
+    },
+    {
+        "id": 3,
+        "Categoria": "Yerbas",
+
+        "Title": "Erva-Mate Tradicional 1Kg",
+
+        "Img1": "Productos/test-4-yerba.webp",
+        "Img2": "Productos/test-5-yerba.webp",
+
+        "Description": "'Produzida a partir dos melhores ervais do Sul do Brasil, possui um sabor único.",
+
+        "Price": 3600,
+
+        "Peso": 1,
+
+        "Quantity": 4
+    },
+    {
+        "id": 4,
+        "Categoria": "Yerbas",
+
+        "Title": "Erva-Mate Tradicional 1Kg3",
+
+        "Img1": "Productos/test-6-yerba.webp",
+        "Img2": "Productos/test-7-yerba.webp",
+
+        "Description": "'Produzida a partir dos melhores ervais do Sul do Brasil, possui um sabor único.",
+
+        "Price": 3600,
+
+        "Peso": 1,
+
+        "Quantity": 4
+    },
+    {
+        "id": 5,
+        "Categoria": "Yerbas",
+
+        "Title": "Erva-Mate Tradicional 1Kg",
+
+        "Img1": "Productos/test-8-yerba.webp",
+        "Img2": "Productos/test-9-yerba.webp",
+
+        "Description": "'Produzida a partir dos melhores ervais do Sul do Brasil, possui um sabor único.",
+
+        "Price": 3600,
+
+        "Peso": 1,
+
+        "Quantity": 4
+    },
+    {
+        "id": 6,
+        "Categoria": "Yerbas",
+
+        "Title": "Erva-Mate Tradicional 1Kg",
+
+        "Img1": "Productos/test-10-yerba.webp",
+        "Img2": "Productos/test-11-yerba.webp",
+
+        "Description": "'Produzida a partir dos melhores ervais do Sul do Brasil, possui um sabor único.",
+
+        "Price": 3600,
+
+        "Peso": 1,
+
+        "Quantity": 4
+    }
+]

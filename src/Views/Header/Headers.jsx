@@ -7,19 +7,19 @@ import imgMenu from "../../Img/menu-expand-svgrepo-com (1).svg"
 // import imgMenuClose from "../../Img/menu-collapsed-svgrepo-com.svg"
 // import imgMenuClose2 from "../../Img/turn-off-backup-svgrepo-com (1).svg"
 import imgCart from "../../Img/cart-plus-svgrepo-com (1).svg"
-import { CartContext } from '../../Context/Context'
+// import { cartContext } from '../../Context/DataContext'
 
 function Headers() {
-  const [ cart, setCart ] = useContext(CartContext)
   const [ isDropDown, setIsDropDown ] = useState(false);
+  // const [ cart, setCart ] = useContext(cartContext);
   
   const toggleDropDown = () => {
     setIsDropDown(!isDropDown);
   }
 
-  const quantity = cart.reduce((CantTotal, currentItem) => {
-    return CantTotal + currentItem.quantity;
-  }, 0)
+  // const quantity = cart.reduce((acc, curr) => {
+  //   return acc + curr.Quantity;
+  // }, 0)
 
 
   return (
@@ -93,13 +93,15 @@ function Headers() {
             <span className={styles.title}> 
                 <span className={styles.title_1}> Tu </span>  
                 <span className={styles.title_2}> Mate </span>  
-            </span>
+            </span>  
           </NavLink>
         <div className={styles.containerCarts}>
-          <img src={imgCart} alt={imgCart} className={styles.imgCart}/>
+          <NavLink to={"/ShoppingCart"}>
           <div className={styles.countCarts}>
-            <span className={styles.countCarts2}>{quantity}</span>
+          <img src={imgCart} alt={imgCart} className={styles.imgCart}/>
+            <span className={styles.countCarts2}>{0}</span>
           </div>
+          </NavLink>
         </div>
     </div>
   )
