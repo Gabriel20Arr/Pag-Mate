@@ -11,11 +11,13 @@ import { Mate } from './Components/Mate/Mate';
 import { Bombillas } from './Components/Bombillas/Bombillas';
 import { ShoppingCart } from "./Components/ShoppingCart/ShoppingCart.jsx"
 import Login from './Views/Login/Login.jsx';
+import { Registrarse } from './Views/Registrar/Registrarse.jsx';
 
 function App() {
   const location = useLocation();
   
   const isLogin = location.pathname === "/login"
+  const isRegistrarse = location.pathname === "/registrarse"
   const isShoppinCart = location.pathname === "/ShoppingCart"
   // const isFooter = location.pathname === "/footer"
   
@@ -23,10 +25,10 @@ function App() {
     <cartContext>
       <div className='Container'>
         <div className="Headers">
-          { isLogin ? null : <Headers /> }
+          { isLogin || isRegistrarse ? null : <Headers /> }
         </div>
         <div className='Carrusel'>
-          { isShoppinCart || isLogin ? null : <Carrusel />}
+          { isShoppinCart || isLogin || isRegistrarse ? null : <Carrusel />}
         </div>
 
         <div className="content">
@@ -36,18 +38,18 @@ function App() {
             <Route path='/Yerbas' element={<Yerbas />} />
             <Route path='/Mates' element={<Mate />} />
             <Route path='/Bombillas' element={<Bombillas />} />
-            {/* <Route path='/Termos' element={<Cards />} /> */}
-            {/* <Route path='/Termos' element={<Card />} /> */}
             <Route path='/ShoppingCart' element={<ShoppingCart />} />
 
             <Route path='/login' element={ <Login />} />
+            <Route path='/registrarse' element={ <Registrarse />} />
           </Routes>
         </div>
 
         <div className='Footer'>
-          {isShoppinCart || isLogin ? null : <Footer />}
+          { (isShoppinCart || isLogin || isRegistrarse) ? null : <Footer /> }
         </div>
       </div>
+
     </cartContext>
   );
 }

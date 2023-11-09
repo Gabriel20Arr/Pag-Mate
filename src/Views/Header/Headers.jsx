@@ -85,6 +85,12 @@ function Headers() {
                   </span>
               </NavLink>
 
+              <NavLink to={"login"} className={styles.NavLinks}>                  
+                  <span className={styles.span}>
+                    Login
+                  </span>
+              </NavLink>
+
               </div>)
             }
             
