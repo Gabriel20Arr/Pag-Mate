@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-import styles from "./Home.module.css"
+import styles from "./Carrusel.module.css"
 
 import imgCarrusel1 from "../../Img/img-1-c.png"
 import imgCarrusel2 from "../../Img/img-2-c.png"

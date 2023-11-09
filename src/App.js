@@ -10,17 +10,24 @@ import { Yerbas } from './Components/Yerbas/Yerbas';
 import { Mate } from './Components/Mate/Mate';
 import { Bombillas } from './Components/Bombillas/Bombillas';
 import { ShoppingCart } from "./Components/ShoppingCart/ShoppingCart.jsx"
+import Login from './Views/Login/Login.jsx';
 
 function App() {
   const location = useLocation();
-
+  
+  const isLogin = location.pathname === "/login"
   const isShoppinCart = location.pathname === "/ShoppingCart"
-
+  // const isFooter = location.pathname === "/footer"
+  
   return (
     <cartContext>
       <div className='Container'>
-        <Headers />
-          { isShoppinCart ? null : <Carrusel />}
+        <div className="Headers">
+          { isLogin ? null : <Headers /> }
+        </div>
+        <div className='Carrusel'>
+          { isShoppinCart || isLogin ? null : <Carrusel />}
+        </div>
 
         <div className="content">
           <Routes>
@@ -32,11 +39,13 @@ function App() {
             {/* <Route path='/Termos' element={<Cards />} /> */}
             {/* <Route path='/Termos' element={<Card />} /> */}
             <Route path='/ShoppingCart' element={<ShoppingCart />} />
+
+            <Route path='/login' element={ <Login />} />
           </Routes>
         </div>
 
-        <div className='FooterC'>
-          {isShoppinCart ? null : <Footer />}
+        <div className='Footer'>
+          {isShoppinCart || isLogin ? null : <Footer />}
         </div>
       </div>
     </cartContext>

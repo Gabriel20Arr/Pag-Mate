@@ -1,25 +1,34 @@
 .Container {
-    min-height: 100vh;
-  }
-  
-  .content {
-    display: flex;
-    justify-content: center;
-    /* align-items: center; */
-
-    /* width: fit-content; */
-
-    margin-top: 500px;
-
-    /* border: solid 5px red; */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
-/* .FooterC{
-    border: solid 4px red;
+.Headers {
+  height: auto;
+  order: 1;
+}
 
-    position: absolute;
-    bottom: 0;
+.Carrusel{
+  height: auto;
 
-    width: 100%;
-} */
-  
+  order: 2;
+}
+
+
+.content {
+  flex: 1; /* Esta regla hace que el contenido (content) ocupe el espacio restante */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: auto;
+
+  order: 3;
+}
+
+.Footer {
+  height: auto;
+
+  order: 4;
+}
