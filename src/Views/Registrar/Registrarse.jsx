@@ -1,9 +1,12 @@
 import React from 'react'
+
+import Styles from "./Registrarse.module.css"
+
 import { Link } from 'react-router-dom'
 
 export const Registrarse = () => {
   return (
-    <div>
+    <div className={Styles.Contenedor}>
         <Link to={"/login"}>
             Login
         </Link>
