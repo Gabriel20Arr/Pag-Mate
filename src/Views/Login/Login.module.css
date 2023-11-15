@@ -28,7 +28,7 @@ h2{
     border-radius: 50px;
     
     padding: 5px 20px;
-    backdrop-filter: blur(3px);
+    backdrop-filter: blur(5px);
 }
 
 form{
@@ -45,7 +45,7 @@ form{
 label{
     font-family:'Times New Roman', Times, serif;
 
-    width: 90%;
+    width: 85%;
     color: white;
     font-size: large;
     font-weight: bolder;
@@ -54,7 +54,8 @@ label{
 }
 
 input{
-    width: 90%;
+    width: 85%;
+    height: 2.2em;
     
     justify-content: start;
 
@@ -71,7 +72,7 @@ input{
     display: flex;
     justify-content: flex-end;
 
-    width: 90%;
+    width: 85%;
 
     margin-top: -20px;
     margin-bottom: 30px;

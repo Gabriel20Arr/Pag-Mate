@@ -1,13 +1,11 @@
 import React,  { useContext, useState } from 'react'
-import { NavLink } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 
 import styles from "./Headers.module.css"
 
 import imgMenu from "../../Img/menu-expand-svgrepo-com (1).svg"
-// import imgMenuClose from "../../Img/menu-collapsed-svgrepo-com.svg"
-// import imgMenuClose2 from "../../Img/turn-off-backup-svgrepo-com (1).svg"
 import imgCart from "../../Img/cart-plus-svgrepo-com (1).svg"
-// import { cartContext } from '../../Context/DataContext'
+
 
 function Headers() {
   const [ isDropDown, setIsDropDown ] = useState(false);
@@ -85,11 +83,21 @@ function Headers() {
                   </span>
               </NavLink>
 
-              <NavLink to={"login"} className={styles.NavLinks}>                  
-                  <span className={styles.span}>
-                    Login
-                  </span>
-              </NavLink>
+              <div className={styles.NavLinks2}>
+                <div className={styles.imgL}>
+                  <NavLink to={"login"} className={styles.imgLoginn}>
+                    <svg xmlns="http://www.w3.org/2000/svg" className={styles.imgL} width="28" height="28" viewBox="0 0 24 24">
+                      <path fill="#aaaaa" d="M12 21v-2h7V5h-7V3h9v18h-9Zm-2-4l-1.375-1.45l2.55-2.55H3v-2h8.175l-2.55-2.55L10 7l5 5l-5 5Z"/>
+                    </svg>
+                  </NavLink>  
+                </div>
+
+                <div className={styles.imgL2}>
+                  <NavLink to={"registrarse"} className={styles.imgLoginn2}>
+                    <svg xmlns="http://www.w3.org/2000/svg" className={styles.imgL} width="28" height="28" viewBox="0 0 48 48"><g fill="none" stroke="#aaaaaa" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"><path d="M23.992 6H6v36h18"/><path d="m25 33l-9-9l9-9m17 8.992H16"/></g></svg>      
+                  </NavLink>
+                </div>
+              </div>
 
               </div>)
             }
@@ -101,13 +109,27 @@ function Headers() {
                 <span className={styles.title_2}> Mate </span>  
             </span>  
           </NavLink>
-        <div className={styles.containerCarts}>
-          <NavLink to={"/ShoppingCart"}>
-          <div className={styles.countCarts}>
-          <img src={imgCart} alt={imgCart} className={styles.imgCart}/>
-            <span className={styles.countCarts2}>{0}</span>
+
+        <div className={styles.Contenedor}>
+        <Link to={'/login'}>
+          <svg xmlns="http://www.w3.org/2000/svg" className={styles.imgLogin} viewBox="0 0 24 24">
+            <path fill="#aaaaa" d="M12 21v-2h7V5h-7V3h9v18h-9Zm-2-4l-1.375-1.45l2.55-2.55H3v-2h8.175l-2.55-2.55L10 7l5 5l-5 5Z"/>
+          </svg>
+        </Link>
+
+          {/* <svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 48 48">
+            <g fill="none" stroke="#aaaaa" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"><path d="M23.992 6H6v36h18"/><path d="m25 33l-9-9l9-9m17 8.992H16"/></g>
+          </svg> */}
+          
+
+          <div className={styles.containerCarts}>
+            <NavLink to={"/ShoppingCart"}>
+            <div className={styles.countCarts}>
+            <img src={imgCart} alt={imgCart} className={styles.imgCart}/>
+              <span className={styles.countCarts2}>{0}</span>
+            </div>
+            </NavLink>
           </div>
-          </NavLink>
         </div>
     </div>
   )
