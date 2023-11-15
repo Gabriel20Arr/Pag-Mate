@@ -1,6 +1,88 @@
-.Contenedor{
-    min-height: 100vh;
+.Container{
+    height: 100vh;
     width: 100%;
 
-    background-color: aquamarine;
+    /* background-color: #eeee; */
+    background: url('../../../public/fondos/Universo\ \(8\).jpg') no-repeat center center;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    align-items: center;
+
+}
+
+h2{
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 40px;
+
+    margin-bottom: 20px;
+}
+
+.ContainerForm{
+    /* border: 3px solid white; */
+    border-radius: 50px;
+    
+    padding: 5px 20px;
+    backdrop-filter: blur(3px);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    align-items: center;
+    
+    height: 400px;
+    width: 340px;
+}
+
+label{
+    font-family:'Times New Roman', Times, serif;
+
+    width: 90%;
+    color: white;
+    font-size: large;
+    font-weight: bolder;
+    
+    justify-content: start;
+}
+
+input{
+    width: 90%;
+    
+    justify-content: start;
+
+    margin-bottom: 30px;
+}
+
+.Registrar{
+    /* background-color: white; */
+    color: white;
+
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    display: flex;
+    justify-content: flex-end;
+
+    width: 90%;
+
+    margin-top: -20px;
+    margin-bottom: 30px;
+
+}
+
+button{
+    width: 80px;
+
+    font-size: x-large;
+    font-weight: bold;
+
+    border-radius: 10px;
 }
