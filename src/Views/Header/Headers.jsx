@@ -88,6 +88,7 @@ function Headers() {
             }
             
         </div>
+
           <NavLink to={"/"} style={{textDecoration: "none", color: 'black'}}>
             <span className={styles.title}> 
                 <span className={styles.title_1}> Tu </span>  
@@ -96,28 +97,23 @@ function Headers() {
           </NavLink>
 
         <div className={styles.Contenedor}>
-        <Link   to={'/login'}>
-          <img src={imgLogin} alt='imgLogin' className={styles.imgLogin}/>
-        </Link>
-
-        {/* <Link   to={'/registrarse'}>
-          <img src={imgOutLogin} alt='imgOutLogin' className={styles.imgLogin2}/>
-        </Link> */}
+          <Link   to={'/login'}>
+            <img src={imgLogin} alt='imgLogin' className={styles.imgLogin}/>
+          </Link>
+          {/* <Link   to={'/registrarse'}>
+            <img src={imgOutLogin} alt='imgOutLogin' className={styles.imgLogin2}/>
+          </Link> */}
 
           <div className={styles.containerCarts}>
             <NavLink to={"/ShoppingCart"} style={{textDecoration:"none"}}>
-
               <div className={styles.countCarts}>
-              
                 <img src={imgCart} alt={imgCart} className={styles.imgCart}/>
-                
                 <span className={styles.count}>{9}</span>
-              
               </div>
-            
             </NavLink>
           </div>
         </div>
+
     </div>
   )
 }

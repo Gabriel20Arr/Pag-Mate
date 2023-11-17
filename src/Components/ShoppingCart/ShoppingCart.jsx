@@ -200,9 +200,9 @@ export const ShoppingCart = () => {
                   {cartItems.reduce((a, c) => a + c.quantity * c.precio, 0)}
                 </div> */}
 
-                <div class="d-grid gap-2 col-6 mx-auto">
+                <div class="d-grid gap-2 col-6 mx-auto" >
                   <button
-                    class="btn btn-outline-primary btn-lg" 
+                    class="btn btn-outline-primary btn-lg w-100" 
                     type="button"
                     id="buttomPagar"
                     onClick={() => alert('Comprando')}
