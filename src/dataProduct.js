@@ -16,7 +16,9 @@ export const Productos = [
 
             "Peso": 1,
 
-            "Quantity": 4
+            "Quantity": 4,
+
+            "Origin": "Brazil"
         },
         {
             "id": 2,
@@ -33,7 +35,9 @@ export const Productos = [
 
             "Peso": 1,
 
-            "Quantity": 4
+            "Quantity": 4,
+
+            "Origin": "Argentina"
         },
         {
             "id": 3,
@@ -50,7 +54,9 @@ export const Productos = [
 
             "Peso": 1,
 
-            "Quantity": 4
+            "Quantity": 4,
+
+            "Origin": "Uruguay"
         },
         {
             "id": 4,
@@ -67,7 +73,9 @@ export const Productos = [
 
             "Peso": 1,
 
-            "Quantity": 4
+            "Quantity": 4,
+
+            "Origin": "Brazil"
         },
         {
             "id": 5,
@@ -84,7 +92,9 @@ export const Productos = [
 
             "Peso": 1,
 
-            "Quantity": 4
+            "Quantity": 4,
+
+            "Origin": "Argentina"
         },
         {
             "id": 6,
@@ -101,7 +111,9 @@ export const Productos = [
 
             "Peso": 1,
 
-            "Quantity": 4
+            "Quantity": 4,
+
+            "Origin": "Brazil"
         },
         {
             "id": 7,
@@ -118,7 +130,9 @@ export const Productos = [
 
             "Peso": 1,
 
-            "Quantity": 4
+            "Quantity": 4,
+
+            "Origin": "Uruguay"
         },
         {
             "id": 8,
@@ -135,7 +149,9 @@ export const Productos = [
 
             "Peso": 1,
 
-            "Quantity": 4
+            "Quantity": 4,
+
+            "Origin": "Brazil"
         },
         {
             "id": 9,
@@ -152,7 +168,9 @@ export const Productos = [
 
             "Peso": 1,
 
-            "Quantity": 4
+            "Quantity": 4,
+
+            "Origin": "Brazil"
         },
     ],
 
@@ -174,7 +192,9 @@ export const Productos = [
 
             "Altura": 20,
 
-            "Quantity": 4
+            "Quantity": 4,
+
+            "Origin": "Brazil"
         },
         {
             "id": 101,
@@ -192,7 +212,9 @@ export const Productos = [
 
             "Altura": 19,
 
-            "Quantity": 4
+            "Quantity": 4,
+
+            "Origin": "Argentina"
         },
         {
             "id": 102,
@@ -210,7 +232,9 @@ export const Productos = [
 
             "Altura": 20,
 
-            "Quantity": 4
+            "Quantity": 4,
+
+            "Origin": "Argentina"
         },
         {
             "id": 103,
@@ -228,7 +252,9 @@ export const Productos = [
 
             "Altura": 20,
 
-            "Quantity": 4
+            "Quantity": 4,
+
+            "Origin": "Uruguay"
         },
         {
             "id": 104,
@@ -246,7 +272,9 @@ export const Productos = [
 
             "Altura": 22,
 
-            "Quantity": 4
+            "Quantity": 4,
+
+            "Origin": "Uruguay"
         },
         {
             "id": 105,
@@ -264,7 +292,9 @@ export const Productos = [
 
             "Altura": 20,
 
-            "Quantity": 4
+            "Quantity": 4,
+
+            "Origin": "Argentina"
         },
         {
             "id": 106,
@@ -282,7 +312,9 @@ export const Productos = [
 
             "Altura": 21,
 
-            "Quantity": 4
+            "Quantity": 4,
+
+            "Origin": "Brazil"
         },
         {
             "id": 107,
@@ -300,7 +332,9 @@ export const Productos = [
 
             "Altura": 20,
 
-            "Quantity": 4
+            "Quantity": 4,
+
+            "Origin": "Brazil"
         },
     ],
 
@@ -320,7 +354,9 @@ export const Productos = [
 
             "Altura": 10,
 
-            "Quantity": 4
+            "Quantity": 4,
+
+            "Origin": "Brazil"
         },
         {
             "id": 202,
@@ -336,7 +372,9 @@ export const Productos = [
 
             "Altura": 9,
 
-            "Quantity": 4
+            "Quantity": 4,
+
+            "Origin": "Argentina"
         },
         {
             "id": 203,
@@ -352,7 +390,9 @@ export const Productos = [
 
             "Altura": 10,
 
-            "Quantity": 4
+            "Quantity": 4,
+
+            "Origin": "Uruguay"
         },
         {
             "id": 204,
@@ -368,7 +408,9 @@ export const Productos = [
 
             "Altura": 11,
 
-            "Quantity": 4
+            "Quantity": 4,
+
+            "Origin": "Brazil"
         },
         {
             "id": 205,
@@ -384,7 +426,9 @@ export const Productos = [
 
             "Altura": 10,
 
-            "Quantity": 4
+            "Quantity": 4,
+
+            "Origin": "Argentina"
         },
     ],
 ]

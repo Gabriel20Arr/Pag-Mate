@@ -12,6 +12,7 @@ import { Bombillas } from './Components/Bombillas/Bombillas';
 import { ShoppingCart } from "./Components/ShoppingCart/ShoppingCart.jsx"
 import Login from './Views/Login/Login.jsx';
 import { Registrarse } from './Views/Registrar/Registrarse.jsx';
+import Filters from './Views/Filters/Filters.jsx';
 
 function App() {
   const location = useLocation();
@@ -30,10 +31,12 @@ function App() {
         <div className='Carrusel'>
           { isShoppinCart || isLogin || isRegistrarse ? null : <Carrusel />}
         </div>
+        <div className='Filters'>
+          <Filters />
+        </div>
 
         <div className="content">
           <Routes>
-            <Route path='/' element={<AllProduct />} />
             <Route path='/AllProduct' element={<AllProduct />} />
             <Route path='/Yerbas' element={<Yerbas />} />
             <Route path='/Mates' element={<Mate />} />

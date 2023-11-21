@@ -74,6 +74,8 @@
     width: 65%;
     height: 255px;
     /* max-height: 260px; */
+
+    /* filter: drop-shadow(5px 5px 8px  #4e9ee4); */
   }
   
   .imagen {

@@ -1,0 +1,81 @@
+.Container{
+    width: 100%;
+    
+    margin: 10px 0;
+    padding: 5px;
+
+    background-color: #487eb0;
+    color: black;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Title{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.ContainerP{
+    background-color: white;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: black;
+    
+    width: 100%;
+
+    display: flex;
+    justify-content: space-evenly;
+
+    border: 1px solid black;
+}
+
+.Propiedades{
+    cursor: pointer;
+    border: none;
+}
+
+/* .BoxPropiedades{
+    display: none;    
+    
+    height: fit-content;        
+    width: 150px;
+    
+    border: 1px solid;
+    border-bottom: none;
+}
+
+.items{
+    background-color: #eee;
+    border-bottom: 1px solid;
+    
+    width: 100%;
+
+}
+
+
+.Propiedades:hover{
+    cursor: pointer;
+    filter: drop-shadow(1px 1px 1px gray);
+    
+    z-index: 999;
+
+    .BoxPropiedades{
+        background-color: #eee;
+        
+        position: absolute;
+        left: 25%;
+        
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .items:hover{
+        background-color: #487eb0;
+    }
+} */
+

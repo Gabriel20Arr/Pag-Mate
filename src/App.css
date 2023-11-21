@@ -22,6 +22,10 @@
   order: 2;
 }
 
+.Filters{
+  order: 3;
+}
+
 
 .content {
   flex: 1; /* Esta regla hace que el contenido (content) ocupe el espacio restante */
@@ -31,11 +35,11 @@
 
   height: auto;
 
-  order: 3;
+  order: 4;
 }
 
 .Footer {
   height: auto;
 
-  order: 4;
+  order: 5;
 }
