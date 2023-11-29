@@ -50,42 +50,43 @@ export const Card = ({ id, Title, Img1, Img2, Description, Price, Peso, Altura, 
   return Productos.map((product)=>{
       return (
           <div key={product.id} className={styles.Container}>
-          <div className={styles.Container2}>
-        
-            <div className={styles.containerB}>
-              <h2 className={styles.span0}>{product.Title}</h2>
-    
-              <div className={styles.imagenContainer}>
-                      <img
-                        src={product.Img1}
-                        alt="Imagen normal"
-                        className={`${styles.span1} ${styles.imagen}`}
-                      />
-                      <img
-                        src={product.Img2}
-                        alt="Imagen hover"
-                        className={`${styles.span1} ${styles.imagen} ${styles.imagenHover}`}
-                      />
-                </div>
-    
-              <button className={styles.btn} onClick={addCart}>Add carts</button>
+            <div className={styles.Container2}>
+          
+              <div className={styles.containerB}>
+                <h2 className={styles.span0}>{product.Title}</h2>
+      
+                <div className={styles.imagenContainer}>
+                        <img
+                          src={product.Img1}
+                          alt="Imagen normal"
+                          className={`${styles.span1} ${styles.imagen}`}
+                        />
+                        <img
+                          src={product.Img2}
+                          alt="Imagen hover"
+                          className={`${styles.span1} ${styles.imagen} ${styles.imagenHover}`}
+                        />
+                  </div>
+      
+                <button className={styles.btn} onClick={addCart}>Add carts</button>
+                
+                <p>Precio: {product.Price}</p>
 
-              {/* <p className={styles.span2}>{product.Description}</p> */}
-              
-              <p>Precio: {product.Price}</p>
+                <p>Cantidad: {product.Quantity}</p>
 
-              <p>Cantidad: {product.Quantity}</p>
+                {/* { 
+                  (Peso) ? <p>Peso: {product.Peso}Kg</p> 
+                    : 
+                  <p>Altura: {product.Altura} cm</p>
+                } */}
+      
+              </div>
+          </div>
 
-              {/* { 
-                (Peso) ? <p>Peso: {product.Peso}Kg</p> 
-                  : 
-                <p>Altura: {product.Altura} cm</p>
-              } */}
+          {/* <div className={styles.span2}>
+            <p className={styles.span2}>{product.Description}</p>
+          </div> */}
 
-    
-            </div>
-
-        </div>
         </div>)
     })
 
