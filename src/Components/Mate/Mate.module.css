@@ -107,12 +107,78 @@
     transform: scale(1); /* Opcional: Ajusta el tamaño de la imagen hover al pasar el mouse */
   }
 
+  /* //? description */
 .span2{
     /* border: 3px solid #487eb0; */
     /* background-color: #487eb0; */
     padding: 2px;
     font-family: 'Courier New', Courier, monospace;
 }
+
+
+/* Rotate */
+.rotacion{
+    /* animation:swing-bottom 0.6s linear  */
+    animation:bounce-top .9s linear both
+}
+
+@keyframes bounce-top{
+    0%{transform:translateY(-45px);
+        animation-timing-function:ease-in;
+        opacity:1}
+        24%{opacity:1}
+        40%{transform:translateY(-24px);
+            animation-timing-function:ease-in}
+            65%{transform:translateY(-12px);
+                animation-timing-function:ease-in}
+                82%{transform:translateY(-6px);
+                    animation-timing-function:ease-in}
+                    93%{transform:translateY(-4px);
+                        animation-timing-function:ease-in}
+                        25%,55%,75%,87%{transform:translateY(0);
+                            animation-timing-function:ease-out}
+                            100%{transform:translateY(0);
+                                animation-timing-function:ease-out;
+                                opacity:1}
+}
+
+.rotacion2{
+    animation:swing-bottom 0.6s linear 
+}
+
+@keyframes swing-bottom{
+    0%{transform:rotateX(360deg);
+    transform-origin:bottom}
+    
+    100%{transform:rotateX(180deg);
+    transform-origin:bottom}
+}
+
+.Rotate{
+    /* background-color: aqua; */
+    height: 100%;
+    width: 100%;
+}
+
+.change{
+    background-color: red;
+}
+
+.RContent{
+    background-color: blue;
+
+    height: 100%;
+    width: 100%;
+}
+
+.btn{
+    width: fit-content;
+    height: 30px;
+
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
 
 .span3{
     background-color: blue;
@@ -131,32 +197,6 @@
 
 
 
-/* Rotate */
-
-.rotacion{
-    background-color: red;
-
-    /* transform: scaleX(180grad); */
-    
-}
-
-.Rotate{
-    background-color: aqua;
-    height: 100%;
-    width: 100%;
-}
-
-.RContent{
-    background-color: blue;
-
-    height: 100%;
-    width: 100%;
-}
-
-
-
-
-
 @media (max-width: 900px) {
     .Cmate2{
         /* border: solid 5px red; */
@@ -165,7 +205,7 @@
         margin: auto 0 ;
         grid-template-columns: 1fr 1fr;
     
-        grid-gap: 20px;
+        grid-gap: 15px;
     
         max-width: 100%;
         min-height: 100vh;
